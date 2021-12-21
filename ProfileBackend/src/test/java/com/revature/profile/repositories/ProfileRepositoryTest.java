@@ -21,7 +21,7 @@ class ProfileRepositoryTest {
     @Test
         public void savePrivacy(){
             Privacy privacy = Privacy.builder()
-                    .email(true)
+                    .email(false)
                     .dob(false)
                     .gender(false)
                     .name(false)
@@ -35,9 +35,9 @@ class ProfileRepositoryTest {
         Privacy privacy = new Privacy();
         privacy.setPrivacyid(1L);
         Profile profile = Profile.builder()
-                .username("willb32333")
+                .username("will3b32434333")
                 .password("password")
-                .email("wjbecht4343443322lb2be@gmail.com")
+                .email("wjbecht4334343443322lb2be@gmail.com")
                 .name("will bechtle")
                 .alias("wjb")
                 .dob("06/17/1998")
