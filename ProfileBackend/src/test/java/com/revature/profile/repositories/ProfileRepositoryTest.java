@@ -1,6 +1,8 @@
-package com.revature.spring.boot.data.demo.repositories;
+package com.revature.profile.repositories;
 
-import com.revature.spring.boot.data.demo.entities.*;
+import com.revature.profile.entities.Privacy;
+import com.revature.profile.entities.Profile;
+import com.revature.profile.entities.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,7 +21,7 @@ class ProfileRepositoryTest {
     @Test
         public void savePrivacy(){
             Privacy privacy = Privacy.builder()
-                    .email(false)
+                    .email(true)
                     .dob(false)
                     .gender(false)
                     .name(false)

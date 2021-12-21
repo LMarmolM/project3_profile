@@ -1,9 +1,7 @@
-package com.revature.spring.boot.data.demo.repositories;
+package com.revature.profile.repositories;
 
-import com.revature.spring.boot.data.demo.entities.Profile;
+import com.revature.profile.entities.Profile;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

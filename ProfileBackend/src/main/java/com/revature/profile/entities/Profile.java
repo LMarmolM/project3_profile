@@ -1,4 +1,4 @@
-package com.revature.spring.boot.data.demo.entities;
+package com.revature.profile.entities;
 
 import lombok.*;
 
