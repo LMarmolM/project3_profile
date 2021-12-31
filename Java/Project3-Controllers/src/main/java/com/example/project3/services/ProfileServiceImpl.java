@@ -72,6 +72,7 @@ public class ProfileServiceImpl implements ProfileService{
                 .standard()
                 .withRegion(Regions.US_EAST_1)
                 .withCredentials(new AWSStaticCredentialsProvider(
+                        // For now you must hardcode the access and secret key in here. These are not present as they cannot be shared on github. Ask James for more info if needed.
                         new BasicAWSCredentials(System.getenv("AWS_ACCESS_KEY_ID"), System.getenv("AWS_SECRET_ACCESS_KEY"))))
                 .build();
 
